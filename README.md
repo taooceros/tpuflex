@@ -7,8 +7,8 @@ This repository is an **index**. The code lives in five forks of the upstream vL
 ```bash
 git clone --recursive --shallow-submodules https://github.com/taooceros/tpuflex.git
 cd tpuflex
-# Rebuild the single-tree research workspace from the five forks:
-python llm-d/experimental/heterogeneous-serving/assemble.py --forks-root . --output ./workspace
+# Rebuild the single-tree research workspace from the five forks (output must be outside this checkout):
+python llm-d/experimental/heterogeneous-serving/assemble.py --forks-root . --output ../tpuflex-workspace
 ```
 
 ## Repositories
