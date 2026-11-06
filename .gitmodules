@@ -1,0 +1,25 @@
+[submodule "llm-d"]
+	path = llm-d
+	url = https://github.com/taooceros/llm-d.git
+	branch = pr/hetero-chain-20261105
+	shallow = true
+[submodule "tpu-inference"]
+	path = tpu-inference
+	url = https://github.com/taooceros/tpu-inference.git
+	branch = pr/hetero-chain-20261105
+	shallow = true
+[submodule "vllm"]
+	path = vllm
+	url = https://github.com/taooceros/vllm.git
+	branch = pr/hetero-chain-20261105
+	shallow = true
+[submodule "llm-d-router"]
+	path = llm-d-router
+	url = https://github.com/taooceros/llm-d-router.git
+	branch = pr/hetero-chain-20261012
+	shallow = true
+[submodule "llm-d-async"]
+	path = llm-d-async
+	url = https://github.com/taooceros/llm-d-async.git
+	branch = pr/hetero-chain-20261105
+	shallow = true
